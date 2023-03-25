@@ -17,7 +17,6 @@ body {
   color: var(--color-white);
   margin: 0;
 }
-/* mobile friendly alternative to using background-attachment: fixed */
 body::before {
   content: '';
   position: fixed;
@@ -32,7 +31,7 @@ body::before {
       rgba(58, 58, 158, 0.8),
       rgba(136, 136, 206, 0.7)
     ),
-    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    url(https://cdn.pixabay.com/photo/2017/02/18/21/48/milky-way-2078342_960_720.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
